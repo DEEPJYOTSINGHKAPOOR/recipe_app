@@ -1,3 +1,6 @@
+import { DropdownDirective } from './shared/dropdown.directive';
+import { UnlessDirective } from './unless.directive/unless.directive';
+import { BasicHighLightDirective } from './basic-hightlight.directive/basic-highlight.directive';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -22,7 +25,9 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
     RecipeItemComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
-
+    BasicHighLightDirective,
+    UnlessDirective,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,
